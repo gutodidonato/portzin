@@ -1,0 +1,56 @@
+.elemento-fodido{
+    background-color: black;
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.header-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    position: fixed;
+}
+
+
+.header-listagemPrimaria {
+    display: flex;
+    margin: 10px;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.header-listagem{
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+}
+
+.Ativo{
+    background-color: red;
+}
+
+.Inativo{
+    background-color: aqua;
+}
+
+@keyframes rolarParacima {
+    0%{
+        background-color: white;
+    }
+    50%{
+        background-color: rgb(122, 118, 118);
+    }
+
+    100%{
+        background-color: white;
+    }
+    
+}

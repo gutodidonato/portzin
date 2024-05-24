@@ -1,0 +1,31 @@
+/*
+======================================
+        Reset CSS 
+======================================
+*/
+
+body {
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+
+/*
+======================================
+        CSS 
+======================================
+*/
+
+
+#root {
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+}
+
