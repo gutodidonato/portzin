@@ -1,7 +1,10 @@
-.container{
+.container {
     display: flex;
     height: 400px;
     justify-content: center;
+    z-index: 2;
+    position: relative;
+    background: black;
 }
 
 .container-bloco{
@@ -33,9 +36,9 @@
 }
 
 .container-eu{
-    background-color: rgba(255, 29, 29, 0.288);
-    width: 75%;
-    height: 75%;
+    background-color: rgb(0 170 245);
+    width: 78%;
+    height: 76%;
     border-radius: 100%;
     transform: rotate(0.5turn);
     animation: rotateRever 10s infinite linear;
@@ -45,11 +48,15 @@
 }
 
 .container-eu img{
-    transform: rotate(170deg);
+    transform: rotate(2deg);
     width: 80%;
     margin-right: -1px;
     margin-top: 3px;
     border-radius: 50%;
+}
+
+.container-coluna2{
+    background: url('./imgs/piramide.png');
 }
 
 @keyframes rotate {

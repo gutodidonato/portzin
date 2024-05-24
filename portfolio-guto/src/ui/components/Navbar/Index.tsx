@@ -26,6 +26,7 @@ function Navbar() {
                 <li><a onClick={(element) => handleAtivacao(element)} className='Ativo' >Me</a></li>
                 <li><a onClick={(element) => handleAtivacao(element)} className='Inativo'>Powers</a></li>
             </ul>
+            <a className='navLogo' href='' ><img src="../../../../public/logo.svg" alt="" /></a>
             <ul className='header-listagem'>
                 <li><a onClick={(element) => handleAtivacao(element)} className='Inativo'>Projects</a></li>
                 <li><a onClick={(element) => handleAtivacao(element)} className='Inativo'>Contact</a></li>
