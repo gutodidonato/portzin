@@ -23,12 +23,12 @@ function Navbar() {
       <header className='elemento-fodido'>
         <nav className='header-nav'>
             <ul className='header-listagem'>
-                <li><a onClick={(element) => handleAtivacao(element)} className='Ativo' >Home</a></li>
+                <li><a onClick={(element) => handleAtivacao(element)} className='Ativo' >Me</a></li>
                 <li><a onClick={(element) => handleAtivacao(element)} className='Inativo'>Powers</a></li>
             </ul>
             <ul className='header-listagem'>
-                <li><a onClick={(element) => handleAtivacao(element)} className='Inativo'>Me</a></li>
-                <li><a onClick={(element) => handleAtivacao(element)} className='Inativo'>About</a></li>
+                <li><a onClick={(element) => handleAtivacao(element)} className='Inativo'>Projects</a></li>
+                <li><a onClick={(element) => handleAtivacao(element)} className='Inativo'>Contact</a></li>
             </ul>
         </nav>
       </header>

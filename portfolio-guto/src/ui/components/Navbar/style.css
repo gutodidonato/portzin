@@ -33,12 +33,31 @@
     list-style-type: none;
 }
 
+
 .Ativo{
     background-color: red;
+    color: white;
+    transition: all 1s;
+
+
+
+    cursor: pointer;
+    font-size: 30px;
+    padding: 10px 20px;
+    border-radius: 30px;
 }
 
 .Inativo{
-    background-color: aqua;
+    color: rgb(245, 10, 214);
+    transition: all 1s;
+    cursor: pointer;
+
+
+
+    cursor: pointer;
+    font-size: 30px;
+    padding: 10px 20px;
+    border-radius: 30px;
 }
 
 @keyframes rolarParacima {

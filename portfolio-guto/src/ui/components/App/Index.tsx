@@ -1,5 +1,6 @@
 import './App.css';
-import Navbar from './ui/components/Navbar/Index.tsx';
+import Navbar from '../Navbar/Index';
+import Home from '../Home/Index';
 
 function App() {
   
@@ -7,7 +8,7 @@ function App() {
   return (
     <>
       <Navbar/>
-      <p>Teste</p>
+      <Home/>
     </>
   )
 }
